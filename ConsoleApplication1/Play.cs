@@ -10,7 +10,7 @@ namespace ConsoleApplication1
     {
         public static void Main(string [] args)
         {
-            Encrypter.EncryptText(@"Data Source=KABYLAKE\HIEPNGUYEN;Initial Catalog=Flower;Integrated Security=True");
+            Encrypter.EncryptText("Hello World!");
             string salt1 = Encrypter.Salt;
             string pass1 = Encrypter.PassWord;
             Console.WriteLine("Salt: " + salt1);
